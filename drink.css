@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 160px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: white;
+    z-index: 1;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    float: right;
+    margin-right: 100px;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 1100px;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    align-items: center;
+}
+.upper i{
+    color: #113358;
+    height: 42px;
+}
+.navigation{
+    width: 400px;
+}
+.main-navigation{
+    display: flex;
+    justify-content: space-between;   
+    color: #113358;
+}
+.main-navigation li{
+list-style: none;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    padding: 12px 15px;
+    border: none;
+    background-color:#096BA2;
+    border-radius: 4cqmin;
+    width: 130px;
+    font-size: 18px;
+    color: white;
+}
+.bb button{
+    background-color: white;
+    color: #877C75;
+    border: 2px solid #DDDDDD;
+    margin-left: 10px;
+}
+.imgg{
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(355deg, rgba(9,98,121,0.5858718487394958) 0%, rgba(9,98,121,0.5858718487394958) 0%, rgba(9,98,121,0.5858718487394958) 0%), url(img/sixteen_nine_large.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.center h1{
+    font-size: 40px;
+}
+.center p{
+    font-size: 20px;
+}
+.inbut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    height: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    padding: 0px 20px;
+}
+.form button{
+    border: 0px;
+    border-radius: 10px;
+}
+.inbut p{
+    font-size: 15px;
+}
+.test p{
+    color: #444444;
+    font-size: 17px;
+    width: 594px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 0px 150px;
+    margin-top: 30px;
+}
+.center2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 990px;
+    margin-bottom: 20px;
+}
+.aimg img{
+    width: 396px;
+    height: 263px;
+}
+.aimg{
+    width: 396px;
+}
+.test{
+    display: flex;
+    height: 303px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.top h2{
+    color:#2D3940;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.bottom button{
+    background-color: #DB3939;
+    color: white;
+    width: 282px;
+    height: 50px;
+    padding: 7px 30px;
+    border: none;
+    border-radius: 30px;
+}
+.footer{
+    height: 512px;
+    background-color: #113358;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+.ftop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #429FA0;
+    width: 1200px;
+    padding-top: 64px;
+}
+.ftop h2{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.ftop button{
+    height: 54px;
+    width: 137px;
+    border: 2px solid white;
+    background-color: #113358;
+    margin-top: 17px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.ft1 img{
+    padding-left: 12px;
+}
+.fbot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.soc{
+    color: white;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.soc i{
+    padding: 0px 10px;
+}
+.cc{
+    color: #429FA0;
+    border-left: 1px solid white;
+    padding-left: 8px;
+}
+.ss{
+    padding-right: 8px;
+}
+.cc1{
+    color: #429FA0;
+    border-left: 1px solid white;
+    padding: 0px 8px;
+}
